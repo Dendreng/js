@@ -7,3 +7,4 @@ let location = "Badda, Dhaka";
 const name = "Mithun chakma";
 console.log(location)
 console.log(name)
+let 

@@ -39,20 +39,35 @@
 //     console.log("free delivery");
 // } else{
 //     console.log("delivery charge 80");
+// // }
+// let balance = 2000;
+// // let withdrawAmount =1500;
+// let withdrawAmount =2500;
+
+// if (withdrawAmount <= balance) {
+//     if (withdrawAmount % 500 == 0) {
+//         console.log("withdraw successful");
+//     }else {
+//         console.log("emter amount multiple of 500");
+//     }
+// } else {
+//     console.log("insufficient balance");
 // }
-let balance = 2000;
-// let withdrawAmount =1500;
-let withdrawAmount =2500;
-
-if (withdrawAmount <= balance) {
-    if (withdrawAmount % 500 == 0) {
-        console.log("withdraw successful");
-    }else {
-        console.log("emter amount multiple of 500");
-    }
-} else {
-    console.log("insufficient balance");
-}
         
-    
+// let isMatured = true;
+// let isInterested = true;
+// let isRich = false;
 
+// isMarried = isMatured && isInterested && isRich;
+// console.log(isMarried)
+
+// **********
+
+let isMatured = true;
+let isInterested = true;
+let isRich = false;
+
+isMarried = isMatured || isInterested || isRich;
+console.log(isMarried)
+
+console.log(!isRich)
